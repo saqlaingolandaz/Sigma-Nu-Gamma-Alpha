@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B020F8F1C07A424005AFA34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B020F8E1C07A424005AFA34 /* AppDelegate.swift */; };
+		2B020F911C07A424005AFA34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B020F901C07A424005AFA34 /* ViewController.swift */; };
+		2B020F941C07A424005AFA34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B020F921C07A424005AFA34 /* Main.storyboard */; };
+		2B020F961C07A424005AFA34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B020F951C07A424005AFA34 /* Assets.xcassets */; };
+		2B020F991C07A424005AFA34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B020F971C07A424005AFA34 /* LaunchScreen.storyboard */; };
+		2B020FA41C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B020FA31C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaTests.swift */; };
+		2B020FAF1C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B020FAE1C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaUITests.swift */; };
+		2B020FBF1C07A516005AFA34 /* Settings-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B020FBE1C07A516005AFA34 /* Settings-26.png */; };
+		2B020FC31C07A66A005AFA34 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B020FC21C07A66A005AFA34 /* download.png */; };
+		2B020FC51C07A6E3005AFA34 /* logos_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B020FC41C07A6E3005AFA34 /* logos_flag.png */; };
+		2B020FC71C07A7BE005AFA34 /* Ok-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B020FC61C07A7BD005AFA34 /* Ok-32.png */; };
+		2B020FC91C07AD93005AFA34 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B020FC81C07AD93005AFA34 /* firstViewController.swift */; };
+		2B0527421C0F65F6002583DE /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B0527411C0F65F6002583DE /* logo.jpeg */; };
+		2B1E49031CA60F15008BB126 /* gold-color-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1E49021CA60F15008BB126 /* gold-color-11.jpg */; };
+		2B6F96921C1B4C03009A05CF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96911C1B4C03009A05CF /* 1.jpg */; };
+		2B6F96941C1B4DC6009A05CF /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96931C1B4DC6009A05CF /* grey.png */; };
+		2B6F96961C1B4E94009A05CF /* User Group-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96951C1B4E94009A05CF /* User Group-32.png */; };
+		2B6F96981C1B4FA5009A05CF /* Appointment Reminders-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96971C1B4FA5009A05CF /* Appointment Reminders-32.png */; };
+		2B6F969A1C1B503C009A05CF /* Champagne-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96991C1B503C009A05CF /* Champagne-32.png */; };
+		2B6F969C1C1B506C009A05CF /* Kitchen-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F969B1C1B506C009A05CF /* Kitchen-50.png */; };
+		2B6F969E1C1B50B4009A05CF /* Document-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F969D1C1B50B4009A05CF /* Document-50.png */; };
+		2B6F96A01C1B50CE009A05CF /* Champagne-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F969F1C1B50CE009A05CF /* Champagne-50.png */; };
+		2B6F96A21C1B50EE009A05CF /* Appointment Reminders-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96A11C1B50EE009A05CF /* Appointment Reminders-50.png */; };
+		2B6F96A41C1B511D009A05CF /* User Group-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96A31C1B511D009A05CF /* User Group-50.png */; };
+		2B6F96A61C1B541B009A05CF /* Back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6F96A51C1B541B009A05CF /* Back-50.png */; };
+		2B8D625E1C1AA3F20061A6AE /* Info-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D625D1C1AA3F10061A6AE /* Info-32.png */; };
+		2B8D62601C1AA4280061A6AE /* Settings 3-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D625F1C1AA4280061A6AE /* Settings 3-32.png */; };
+		2B8D62621C1AA4AA0061A6AE /* Back-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D62611C1AA4AA0061A6AE /* Back-32.png */; };
+		2BA39F2B1C1F2EDA00EC20C2 /* 2000px-Yellow_card.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA39F2A1C1F2ED900EC20C2 /* 2000px-Yellow_card.svg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B020FA01C07A424005AFA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B020F831C07A424005AFA34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B020F8A1C07A424005AFA34;
+			remoteInfo = "Sigma Nu Gamma Alpha";
+		};
+		2B020FAB1C07A424005AFA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B020F831C07A424005AFA34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B020F8A1C07A424005AFA34;
+			remoteInfo = "Sigma Nu Gamma Alpha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B020F8B1C07A424005AFA34 /* Sigma Nu Gamma Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sigma Nu Gamma Alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B020F8E1C07A424005AFA34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B020F901C07A424005AFA34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B020F931C07A424005AFA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B020F951C07A424005AFA34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B020F981C07A424005AFA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B020F9A1C07A424005AFA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B020F9F1C07A424005AFA34 /* Sigma Nu Gamma AlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sigma Nu Gamma AlphaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B020FA31C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigma_Nu_Gamma_AlphaTests.swift; sourceTree = "<group>"; };
+		2B020FA51C07A424005AFA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B020FAA1C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sigma Nu Gamma AlphaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B020FAE1C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigma_Nu_Gamma_AlphaUITests.swift; sourceTree = "<group>"; };
+		2B020FB01C07A424005AFA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B020FBE1C07A516005AFA34 /* Settings-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-26.png"; sourceTree = "<group>"; };
+		2B020FC21C07A66A005AFA34 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		2B020FC41C07A6E3005AFA34 /* logos_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logos_flag.png; sourceTree = "<group>"; };
+		2B020FC61C07A7BD005AFA34 /* Ok-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ok-32.png"; sourceTree = "<group>"; };
+		2B020FC81C07AD93005AFA34 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		2B0527411C0F65F6002583DE /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+		2B1E49021CA60F15008BB126 /* gold-color-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gold-color-11.jpg"; sourceTree = "<group>"; };
+		2B6F96911C1B4C03009A05CF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		2B6F96931C1B4DC6009A05CF /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		2B6F96951C1B4E94009A05CF /* User Group-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Group-32.png"; sourceTree = "<group>"; };
+		2B6F96971C1B4FA5009A05CF /* Appointment Reminders-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appointment Reminders-32.png"; sourceTree = "<group>"; };
+		2B6F96991C1B503C009A05CF /* Champagne-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Champagne-32.png"; sourceTree = "<group>"; };
+		2B6F969B1C1B506C009A05CF /* Kitchen-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kitchen-50.png"; sourceTree = "<group>"; };
+		2B6F969D1C1B50B4009A05CF /* Document-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Document-50.png"; sourceTree = "<group>"; };
+		2B6F969F1C1B50CE009A05CF /* Champagne-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Champagne-50.png"; sourceTree = "<group>"; };
+		2B6F96A11C1B50EE009A05CF /* Appointment Reminders-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appointment Reminders-50.png"; sourceTree = "<group>"; };
+		2B6F96A31C1B511D009A05CF /* User Group-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Group-50.png"; sourceTree = "<group>"; };
+		2B6F96A51C1B541B009A05CF /* Back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-50.png"; sourceTree = "<group>"; };
+		2B8D625D1C1AA3F10061A6AE /* Info-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-32.png"; sourceTree = "<group>"; };
+		2B8D625F1C1AA4280061A6AE /* Settings 3-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings 3-32.png"; sourceTree = "<group>"; };
+		2B8D62611C1AA4AA0061A6AE /* Back-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-32.png"; sourceTree = "<group>"; };
+		2BA39F2A1C1F2ED900EC20C2 /* 2000px-Yellow_card.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-Yellow_card.svg.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B020F881C07A424005AFA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B020F9C1C07A424005AFA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B020FA71C07A424005AFA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B020F821C07A424005AFA34 = {
+			isa = PBXGroup;
+			children = (
+				2B020F8D1C07A424005AFA34 /* Sigma Nu Gamma Alpha */,
+				2B020FA21C07A424005AFA34 /* Sigma Nu Gamma AlphaTests */,
+				2B020FAD1C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests */,
+				2B020F8C1C07A424005AFA34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B020F8C1C07A424005AFA34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B020F8B1C07A424005AFA34 /* Sigma Nu Gamma Alpha.app */,
+				2B020F9F1C07A424005AFA34 /* Sigma Nu Gamma AlphaTests.xctest */,
+				2B020FAA1C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B020F8D1C07A424005AFA34 /* Sigma Nu Gamma Alpha */ = {
+			isa = PBXGroup;
+			children = (
+				2B020F8E1C07A424005AFA34 /* AppDelegate.swift */,
+				2B020F901C07A424005AFA34 /* ViewController.swift */,
+				2B020FC81C07AD93005AFA34 /* firstViewController.swift */,
+				2B020F921C07A424005AFA34 /* Main.storyboard */,
+				2B020F951C07A424005AFA34 /* Assets.xcassets */,
+				2B0527411C0F65F6002583DE /* logo.jpeg */,
+				2B020F971C07A424005AFA34 /* LaunchScreen.storyboard */,
+				2B020F9A1C07A424005AFA34 /* Info.plist */,
+				2B020FBE1C07A516005AFA34 /* Settings-26.png */,
+				2B020FC21C07A66A005AFA34 /* download.png */,
+				2B020FC41C07A6E3005AFA34 /* logos_flag.png */,
+				2B8D625D1C1AA3F10061A6AE /* Info-32.png */,
+				2B6F96911C1B4C03009A05CF /* 1.jpg */,
+				2B8D625F1C1AA4280061A6AE /* Settings 3-32.png */,
+				2B8D62611C1AA4AA0061A6AE /* Back-32.png */,
+				2B6F96A51C1B541B009A05CF /* Back-50.png */,
+				2B020FC61C07A7BD005AFA34 /* Ok-32.png */,
+				2B6F96931C1B4DC6009A05CF /* grey.png */,
+				2B6F96951C1B4E94009A05CF /* User Group-32.png */,
+				2B6F96A31C1B511D009A05CF /* User Group-50.png */,
+				2B6F96971C1B4FA5009A05CF /* Appointment Reminders-32.png */,
+				2B6F96A11C1B50EE009A05CF /* Appointment Reminders-50.png */,
+				2B1E49021CA60F15008BB126 /* gold-color-11.jpg */,
+				2B6F96991C1B503C009A05CF /* Champagne-32.png */,
+				2B6F969F1C1B50CE009A05CF /* Champagne-50.png */,
+				2B6F969B1C1B506C009A05CF /* Kitchen-50.png */,
+				2BA39F2A1C1F2ED900EC20C2 /* 2000px-Yellow_card.svg.png */,
+				2B6F969D1C1B50B4009A05CF /* Document-50.png */,
+			);
+			path = "Sigma Nu Gamma Alpha";
+			sourceTree = "<group>";
+		};
+		2B020FA21C07A424005AFA34 /* Sigma Nu Gamma AlphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B020FA31C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaTests.swift */,
+				2B020FA51C07A424005AFA34 /* Info.plist */,
+			);
+			path = "Sigma Nu Gamma AlphaTests";
+			sourceTree = "<group>";
+		};
+		2B020FAD1C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B020FAE1C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaUITests.swift */,
+				2B020FB01C07A424005AFA34 /* Info.plist */,
+			);
+			path = "Sigma Nu Gamma AlphaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B020F8A1C07A424005AFA34 /* Sigma Nu Gamma Alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B020FB31C07A424005AFA34 /* Build configuration list for PBXNativeTarget "Sigma Nu Gamma Alpha" */;
+			buildPhases = (
+				2B020F871C07A424005AFA34 /* Sources */,
+				2B020F881C07A424005AFA34 /* Frameworks */,
+				2B020F891C07A424005AFA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sigma Nu Gamma Alpha";
+			productName = "Sigma Nu Gamma Alpha";
+			productReference = 2B020F8B1C07A424005AFA34 /* Sigma Nu Gamma Alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B020F9E1C07A424005AFA34 /* Sigma Nu Gamma AlphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B020FB61C07A424005AFA34 /* Build configuration list for PBXNativeTarget "Sigma Nu Gamma AlphaTests" */;
+			buildPhases = (
+				2B020F9B1C07A424005AFA34 /* Sources */,
+				2B020F9C1C07A424005AFA34 /* Frameworks */,
+				2B020F9D1C07A424005AFA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B020FA11C07A424005AFA34 /* PBXTargetDependency */,
+			);
+			name = "Sigma Nu Gamma AlphaTests";
+			productName = "Sigma Nu Gamma AlphaTests";
+			productReference = 2B020F9F1C07A424005AFA34 /* Sigma Nu Gamma AlphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B020FA91C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B020FB91C07A424005AFA34 /* Build configuration list for PBXNativeTarget "Sigma Nu Gamma AlphaUITests" */;
+			buildPhases = (
+				2B020FA61C07A424005AFA34 /* Sources */,
+				2B020FA71C07A424005AFA34 /* Frameworks */,
+				2B020FA81C07A424005AFA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B020FAC1C07A424005AFA34 /* PBXTargetDependency */,
+			);
+			name = "Sigma Nu Gamma AlphaUITests";
+			productName = "Sigma Nu Gamma AlphaUITests";
+			productReference = 2B020FAA1C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B020F831C07A424005AFA34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SaqlainGolandaz;
+				TargetAttributes = {
+					2B020F8A1C07A424005AFA34 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2B020F9E1C07A424005AFA34 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2B020F8A1C07A424005AFA34;
+					};
+					2B020FA91C07A424005AFA34 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2B020F8A1C07A424005AFA34;
+					};
+				};
+			};
+			buildConfigurationList = 2B020F861C07A424005AFA34 /* Build configuration list for PBXProject "Sigma Nu Gamma Alpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B020F821C07A424005AFA34;
+			productRefGroup = 2B020F8C1C07A424005AFA34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B020F8A1C07A424005AFA34 /* Sigma Nu Gamma Alpha */,
+				2B020F9E1C07A424005AFA34 /* Sigma Nu Gamma AlphaTests */,
+				2B020FA91C07A424005AFA34 /* Sigma Nu Gamma AlphaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B020F891C07A424005AFA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B020FBF1C07A516005AFA34 /* Settings-26.png in Resources */,
+				2B6F96921C1B4C03009A05CF /* 1.jpg in Resources */,
+				2B6F96A01C1B50CE009A05CF /* Champagne-50.png in Resources */,
+				2B020F991C07A424005AFA34 /* LaunchScreen.storyboard in Resources */,
+				2B020FC71C07A7BE005AFA34 /* Ok-32.png in Resources */,
+				2B8D62621C1AA4AA0061A6AE /* Back-32.png in Resources */,
+				2B020F961C07A424005AFA34 /* Assets.xcassets in Resources */,
+				2B6F96961C1B4E94009A05CF /* User Group-32.png in Resources */,
+				2B6F96981C1B4FA5009A05CF /* Appointment Reminders-32.png in Resources */,
+				2B6F96941C1B4DC6009A05CF /* grey.png in Resources */,
+				2B6F969E1C1B50B4009A05CF /* Document-50.png in Resources */,
+				2B6F969A1C1B503C009A05CF /* Champagne-32.png in Resources */,
+				2B6F96A41C1B511D009A05CF /* User Group-50.png in Resources */,
+				2B6F96A61C1B541B009A05CF /* Back-50.png in Resources */,
+				2B020F941C07A424005AFA34 /* Main.storyboard in Resources */,
+				2B020FC51C07A6E3005AFA34 /* logos_flag.png in Resources */,
+				2B8D62601C1AA4280061A6AE /* Settings 3-32.png in Resources */,
+				2B1E49031CA60F15008BB126 /* gold-color-11.jpg in Resources */,
+				2B8D625E1C1AA3F20061A6AE /* Info-32.png in Resources */,
+				2B6F969C1C1B506C009A05CF /* Kitchen-50.png in Resources */,
+				2B6F96A21C1B50EE009A05CF /* Appointment Reminders-50.png in Resources */,
+				2B0527421C0F65F6002583DE /* logo.jpeg in Resources */,
+				2B020FC31C07A66A005AFA34 /* download.png in Resources */,
+				2BA39F2B1C1F2EDA00EC20C2 /* 2000px-Yellow_card.svg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B020F9D1C07A424005AFA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B020FA81C07A424005AFA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B020F871C07A424005AFA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B020F911C07A424005AFA34 /* ViewController.swift in Sources */,
+				2B020F8F1C07A424005AFA34 /* AppDelegate.swift in Sources */,
+				2B020FC91C07AD93005AFA34 /* firstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B020F9B1C07A424005AFA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B020FA41C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B020FA61C07A424005AFA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B020FAF1C07A424005AFA34 /* Sigma_Nu_Gamma_AlphaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B020FA11C07A424005AFA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B020F8A1C07A424005AFA34 /* Sigma Nu Gamma Alpha */;
+			targetProxy = 2B020FA01C07A424005AFA34 /* PBXContainerItemProxy */;
+		};
+		2B020FAC1C07A424005AFA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B020F8A1C07A424005AFA34 /* Sigma Nu Gamma Alpha */;
+			targetProxy = 2B020FAB1C07A424005AFA34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B020F921C07A424005AFA34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B020F931C07A424005AFA34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B020F971C07A424005AFA34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B020F981C07A424005AFA34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B020FB11C07A424005AFA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B020FB21C07A424005AFA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B020FB41C07A424005AFA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sigma Nu Gamma Alpha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaqlainGolandaz.Sigma-Nu-Gamma-Alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B020FB51C07A424005AFA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sigma Nu Gamma Alpha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaqlainGolandaz.Sigma-Nu-Gamma-Alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B020FB71C07A424005AFA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sigma Nu Gamma AlphaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaqlainGolandaz.Sigma-Nu-Gamma-AlphaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sigma Nu Gamma Alpha.app/Sigma Nu Gamma Alpha";
+			};
+			name = Debug;
+		};
+		2B020FB81C07A424005AFA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sigma Nu Gamma AlphaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaqlainGolandaz.Sigma-Nu-Gamma-AlphaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sigma Nu Gamma Alpha.app/Sigma Nu Gamma Alpha";
+			};
+			name = Release;
+		};
+		2B020FBA1C07A424005AFA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sigma Nu Gamma AlphaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaqlainGolandaz.Sigma-Nu-Gamma-AlphaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sigma Nu Gamma Alpha";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2B020FBB1C07A424005AFA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sigma Nu Gamma AlphaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaqlainGolandaz.Sigma-Nu-Gamma-AlphaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sigma Nu Gamma Alpha";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B020F861C07A424005AFA34 /* Build configuration list for PBXProject "Sigma Nu Gamma Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B020FB11C07A424005AFA34 /* Debug */,
+				2B020FB21C07A424005AFA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B020FB31C07A424005AFA34 /* Build configuration list for PBXNativeTarget "Sigma Nu Gamma Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B020FB41C07A424005AFA34 /* Debug */,
+				2B020FB51C07A424005AFA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B020FB61C07A424005AFA34 /* Build configuration list for PBXNativeTarget "Sigma Nu Gamma AlphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B020FB71C07A424005AFA34 /* Debug */,
+				2B020FB81C07A424005AFA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B020FB91C07A424005AFA34 /* Build configuration list for PBXNativeTarget "Sigma Nu Gamma AlphaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B020FBA1C07A424005AFA34 /* Debug */,
+				2B020FBB1C07A424005AFA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B020F831C07A424005AFA34 /* Project object */;
+}
